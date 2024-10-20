@@ -1,0 +1,37 @@
+INSERT TO Armaduras(NOME_ARMADURA, PRECO, DEFESA, PESO) VALUES
+("Armadura de Couro", 25, 2, 2),
+("Gibão de Peles", 75, 4, 2),
+("Cota de Malha", 250, 7, 5),
+("Armadura Completa", 3000, 10, 5)
+
+INSERT TO Armas(NOME_ARMA, PRECO, DANO, TIPO_DANO, ALCANCE, PESO) VALUES
+("Espada Curta", 10, 4, "Perfuração", 1, 1),
+("Maça", 12, 5, "Impacto", 1, 1),
+("Machado de Batalha", 15, 6, "Corte", 1, 2),
+("Besta Leve", 35, 5, "Perfuração", 30, 1),
+("Arco Curto", 30, 4, "Perfuração", 30, 2),
+("Besta Pesada", 50, 7, "Perfuração", 30, 2)
+
+INSERT TO Classe(NOME_CLASSE, VIDA, MANA) VALUES
+("Guerreiro", 20 + CONSTITUICAO, 3),
+("Mago", 8 + CONSTITUICAO, 6),
+("Ladino", 12 + CONSTITUICAO, 4)
+
+INSERT TO Escudos(NOME_ESCUDO, PRECO, DEFESA, PESO) VALUES
+("Escudo Leve", 10, 1, 1)
+("Escudo Pesado", 20, 2, 2)
+
+INSERT TO Municoes(NOME_MUNICOES, PESO, PRECO) VALUES
+("Flechas",4 , 1),
+("Pedras", 1, 1),
+("Virotes", 2, 1)
+
+INSERT TO Racas(NOME_RACAS, FORCA, DESTREZA, INTELIGENCIA, CONSTITUICAO, SABEDORIA, CARISMA, PESO) VALUES
+("Anão", 0, -1, 0, 2, 1, 0, 20),
+("Elfo", 0, 1, 2, -1, 0, 0, 15),
+("Humano", 1, 1, 0, 1, 0, 0, 10)
+
+INSERT TO Conta(NOME, SENHA, EMAIL, TELEFONE, DATA_NASCIMENTO, NICK) VALUES
+("Mateus", "senha@123", "Mateus_teste@gmail.com", 123456789, "2004-05-28", "Asdrubal"),
+("Jorginho", "Abacate0512", "Jor_abacate@gmail.com", 987654321, "2000-07-20", "JorShino"),
+("Jair", "Chocolate123@", "Caipora@gmail.com", 987651234, "2005-08-02", "JorginCaipora")
